@@ -1,0 +1,47 @@
+.preview{
+position: relative;
+}
+.preview_close{
+    position: absolute;
+    top: 0;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+
+}
+.preview_toolbarRight{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    right: 0;
+    position: absolute;
+    justify-content: space-between;
+    margin: 5px;
+}
+.preview_toolbarRight>.MuiSvgIcon-root{
+    font-size: 40px !important;
+    margin-bottom: 8px;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+.preview_footer{
+    position: absolute;
+    bottom: 0;
+    right: -25px;
+    transform: translate(-50%,-50%);
+    display: flex;
+    background-color: yellow;
+    color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.preview_footer>h2{
+    margin-right: 3px;
+    font-size:15px ;
+}
+.preview_sendIcon{
+    font-size: 12px !important;
+}
